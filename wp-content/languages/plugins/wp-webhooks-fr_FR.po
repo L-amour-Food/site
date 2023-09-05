@@ -1,0 +1,29 @@
+# Translation of Plugins - WP Webhooks - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP Webhooks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-11 10:18:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP Webhooks - Stable (latest release)\n"
+
+#: core/includes/classes/class-wp-webhooks-pro-upgrader-skin.php:16
+#: core/includes/integrations/wordpress/misc/plugin_upgrader_skin.php:30
+msgid "Update Plugin"
+msgstr "Mettre à jour l’extension"
+
+#: core/class-wp-webhooks-pro.php:110 core/class-wp-webhooks-pro.php:120
+msgid "Cheatin&#8217; huh?"
+msgstr "Une fausse manipulation ?"
+
+#. Author of the plugin
+msgid "Ironikus"
+msgstr "Ironikus"
+
+#. Plugin Name of the plugin
+msgid "WP Webhooks"
+msgstr "WP Webhooks"

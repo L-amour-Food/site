@@ -1,0 +1,2650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DaftPlug Instantify - PWA & Google AMP & Facebook IA\n"
+"POT-Creation-Date: 2021-01-11 07:33+0400\n"
+"PO-Revision-Date: 2021-01-13 09:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: daftplug-instantify\n"
+"X-Poedit-KeywordsList: esc_html__;esc_heml_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.0; wp-5.6"
+
+#: admin/class-admin.php:107 public/class-public.php:79
+msgid "An unexpected error occured"
+msgstr ""
+
+#: admin/class-admin.php:119 admin/class-admin.php:120
+msgid "Overview"
+msgstr ""
+
+#: admin/class-admin.php:125
+msgid "Progressive Web Apps"
+msgstr ""
+
+#: admin/class-admin.php:126
+msgid "PWA"
+msgstr ""
+
+#: admin/class-admin.php:131
+msgid "Google AMP"
+msgstr ""
+
+#: admin/class-admin.php:132
+#: amp/includes/libs/amp/includes/admin/class-amp-admin-pointers.php:66
+#: amp/includes/libs/amp/includes/admin/class-amp-template-customizer.php:267
+#: amp/includes/libs/amp/includes/admin/functions.php:126
+#: amp/includes/libs/amp/includes/admin/functions.php:127
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:1918
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:379
+#: amp/includes/libs/amp/src/Admin/OptionsMenu.php:143
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:134
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:175
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:248
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:315
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:380
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:399
+msgid "AMP"
+msgstr ""
+
+#: admin/class-admin.php:137
+msgid "Facebook Instant Articles"
+msgstr ""
+
+#: admin/class-admin.php:138
+msgid "FBIA"
+msgstr ""
+
+#: admin/class-admin.php:143 admin/class-admin.php:144
+msgid "Support"
+msgstr ""
+
+#: admin/class-admin.php:350
+msgid "Icon"
+msgstr ""
+
+#: admin/class-admin.php:352
+msgid "Your website has the icon."
+msgstr ""
+
+#: admin/class-admin.php:353
+msgid "Web app icon is not selected."
+msgstr ""
+
+#: admin/class-admin.php:356
+msgid "Manifest"
+msgstr ""
+
+#: admin/class-admin.php:358
+msgid "Your website has a manifest."
+msgstr ""
+
+#: admin/class-admin.php:359
+msgid "Your website failed to generate manifest."
+msgstr ""
+
+#: admin/class-admin.php:362
+msgid "Service Worker"
+msgstr ""
+
+#: admin/class-admin.php:364
+msgid "Your website has a service worker."
+msgstr ""
+
+#: admin/class-admin.php:365
+msgid "Your website failed to generate service worker."
+msgstr ""
+
+#: admin/class-admin.php:368
+msgid "PHP Version"
+msgstr ""
+
+#: admin/class-admin.php:370
+msgid "Your PHP version is supported."
+msgstr ""
+
+#: admin/class-admin.php:371
+msgid "You are not using supported PHP version."
+msgstr ""
+
+#: admin/class-admin.php:374
+msgid "HTTPS"
+msgstr ""
+
+#: admin/class-admin.php:376
+msgid "Your site is serverd over HTTPS."
+msgstr ""
+
+#: admin/class-admin.php:377
+msgid "Your site is not using HTTPS."
+msgstr ""
+
+#: admin/class-admin.php:380
+msgid "Notifications"
+msgstr ""
+
+#: admin/class-admin.php:382
+msgid "You are using OneSignal."
+msgstr ""
+
+#: admin/class-admin.php:382
+msgid "Push Notifications are enabled."
+msgstr ""
+
+#: admin/class-admin.php:383
+msgid "Push Notifications are disabled."
+msgstr ""
+
+#: admin/templates/footer.php:21
+msgid ""
+"After the successful payment, we will create your Android app package  for "
+"your website and send it to you along with the next few steps to submit and "
+"make it live on Google Play Store. If you are unable to proceed with the "
+"payment or having any other issue, please send us an email at <a "
+"class=\"daftplugAdminLink\" href=\"mailto:support@daftplug.com\">"
+"support@daftplug.com</a> or use the <a class=\"daftplugAdminLink\" "
+"href=\"https://codecanyon.net/user/daftplug#contact\" target=\"_blank\">"
+"contact form</a> found on our CodeCanyon profile page."
+msgstr ""
+
+#: admin/templates/header.php:11
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/templates/page-activation.php:48
+msgid ""
+"After purchasing the item, go to <a class=\"daftplugAdminLink\" href=\"http:"
+"//codecanyon.net/downloads\" target=\"_blank\">http://codecanyon."
+"net/downloads</a>, click \"Download\" and select “License Certificate & "
+"Purchase Code”. You’ll find your purchase code in the downloaded file."
+msgstr ""
+
+#: admin/templates/page-amp.php:17
+msgid "AMP Disabled"
+msgstr ""
+
+#: admin/templates/page-amp.php:18
+msgid ""
+"Google AMP features are disabled. If you want to enable it just navigate to "
+"<a class=\"daftplugAdminLink\" href=\"#/overview/\" data-page=\"overview\">"
+"Overview</a> section and enable it."
+msgstr ""
+
+#: admin/templates/page-amp.php:29
+msgid "AMP Plugin Detected"
+msgstr ""
+
+#: admin/templates/page-fbia.php:17
+msgid "FBIA Disabled"
+msgstr ""
+
+#: admin/templates/page-fbia.php:18
+msgid ""
+"Facebook Instant Articles features are disabled. If you want to enable it "
+"just navigate to <a class=\"daftplugAdminLink\" href=\"#/overview/\" data-"
+"page=\"overview\">Overview</a> section and enable it."
+msgstr ""
+
+#: admin/templates/page-overview.php:10
+#, php-format
+msgid ""
+"Welcome to <strong>%s</strong> plugin. Here you may find status, analytics, "
+"warnings or any other information related to the plugin."
+msgstr ""
+
+#: admin/templates/page-overview.php:122
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: admin/templates/page-overview.php:145
+msgid "ON"
+msgstr ""
+
+#: admin/templates/page-overview.php:145
+msgid "OFF"
+msgstr ""
+
+#: admin/templates/page-pwa.php:17
+msgid "PWA Disabled"
+msgstr ""
+
+#: admin/templates/page-pwa.php:18
+msgid ""
+"Progressive Web Apps features are disabled. If you want to enable it just "
+"navigate to <a class=\"daftplugAdminLink\" href=\"#/overview/\" data-"
+"page=\"overview\">Overview</a> section and enable it."
+msgstr ""
+
+#: admin/templates/page-support.php:24
+msgid ""
+"Push Notifications are automatically configured for you via VAPID method, so "
+"you don't need additional configurations or Firebase project creation. "
+"Alternatively, you can use the <a class=\"daftplugAdminLink\" href=\"https:"
+"//wordpress.org/plugins/onesignal-free-web-push-notifications/\" "
+"target=\"_blank\">OneSignal Push Notification</a> plugin as a push "
+"notification service."
+msgstr ""
+
+#: admin/templates/page-support.php:39
+msgid ""
+"Go to <a class=\"daftplugAdminLink\" href=\"https://www.facebook."
+"com/instant_articles/signup\" target=\"_blank\">Instant Articles signup "
+"page</a> and choose the Facebook Page."
+msgstr ""
+
+#: admin/templates/page-support.php:78
+#, php-format
+msgid ""
+"There are two ways to update the plugin to the newer version: Using a "
+"WordPress built-in update system which will automatically check for updates "
+"and show you a notification on an <a class=\"daftplugAdminLink\" href=\"%s\">"
+"admin plugins page</a> when there will be an update available or manually "
+"download latest version of plugin from <a class=\"daftplugAdminLink\" "
+"href=\"https://codecanyon.net/downloads\" target=\"_blank\">Codecanyon</a> "
+"and re-install it."
+msgstr ""
+
+#: amp/admin/class-admin.php:65 fbia/admin/class-admin.php:65
+msgid "General"
+msgstr ""
+
+#: amp/admin/class-admin.php:70 fbia/admin/class-admin.php:75
+msgid "Advertisements"
+msgstr ""
+
+#: amp/admin/class-admin.php:75
+#: amp/includes/libs/amp/src/Admin/AnalyticsOptionsSubmenu.php:59
+#: amp/includes/libs/amp/src/Admin/AnalyticsOptionsSubmenu.php:60
+#: fbia/admin/class-admin.php:80
+msgid "Analytics"
+msgstr ""
+
+#: amp/admin/class-admin.php:80
+msgid "GDPR Consent"
+msgstr ""
+
+#: amp/includes/libs/amp/amp.php:36
+#, php-format
+msgid ""
+"The AMP plugin requires PHP %s. Please contact your host to update your PHP "
+"version."
+msgstr ""
+
+#: amp/includes/libs/amp/amp.php:186
+msgid "AMP plugin unable to initialize."
+msgstr ""
+
+#: amp/includes/libs/amp/amp.php:221
+#, php-format
+msgid ""
+"You appear to have installed the AMP plugin incorrectly. It is currently "
+"installed in the <code>%1$s</code> directory, but it needs to be placed in a "
+"directory named <code>%2$s</code>. Please rename the directory. This is "
+"important for WordPress plugin auto-updates."
+msgstr ""
+
+#: amp/includes/libs/amp/assets/js/wp-polyfill.js:1
+msgid "delete"
+msgstr ""
+
+#: amp/includes/libs/amp/assets/js/wp-polyfill.js:1
+msgid "has"
+msgstr ""
+
+#: amp/includes/libs/amp/assets/js/wp-polyfill.js:1
+msgid "get"
+msgstr ""
+
+#: amp/includes/libs/amp/assets/js/wp-polyfill.js:1
+msgid "Promise-chain cycle"
+msgstr ""
+
+#: amp/includes/libs/amp/assets/js/wp-polyfill.js:1
+msgid "Promise can't be resolved itself"
+msgstr ""
+
+#: amp/includes/libs/amp/back-compat/templates-v0-3/meta-time.php:21
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1893
+#: amp/includes/libs/amp/templates/meta-time.php:28
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-admin-pointers.php:67
+msgid "New AMP Template Modes"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-admin-pointers.php:68
+msgid ""
+"You can now reuse your theme's templates and styles in AMP responses, in "
+"both &#8220;Transitional&#8221; and &#8220;Standard&#8221; modes."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:102
+msgid "AMP status."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:197
+msgid "Preview changes in AMP (opens in new window)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:231
+msgid ""
+"AMP functionality is not available since your version of the Block Editor is "
+"too old. Please either update WordPress core to the latest version or "
+"activate the Gutenberg plugin. As a last resort, you may use the Classic "
+"Editor plugin instead."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:371
+msgid "Enabled"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:372
+msgid "Disabled"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:427
+#, php-format
+msgid "There are no <a href=\"%s\" target=\"_blank\">supported templates</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:434
+#, php-format
+msgid "This post type is not <a href=\"%s\" target=\"_blank\">enabled</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:439
+msgid "A plugin or theme has disabled AMP support."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:442
+msgid "Unavailable for an unknown reason."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:515
+msgid "AMP enabled"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:560
+#, php-format
+msgid "AMP is not supported for the \"%s\" post type."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:570
+msgid "Insufficient permissions to change whether AMP is enabled."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-post-meta-box.php:587
+msgid "The AMP enabled status failed to be updated."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-template-customizer.php:227
+msgid ""
+"While dark mode works on AMP pages, the toggle button is not currently "
+"available. It appears here only for preview purposes."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-template-customizer.php:294
+#, php-format
+msgid ""
+"While <a href=\"%1$s\" target=\"_blank\">AMP</a> works well on both desktop "
+"and mobile pages, your site is <a href=\"%2$s\" target=\"_blank\">currently "
+"configured</a> in Reader mode to serve AMP pages to mobile visitors. These "
+"settings customize the experience for these users."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-template-customizer.php:375
+#, php-format
+msgid ""
+"You are customizing the AMP version of your site. <a href=\"%s\">Customize "
+"non-AMP version</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-template-customizer.php:607
+msgid "AMP is not available for the page currently being previewed."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/admin/class-amp-template-customizer.php:608
+msgid "Navigate to an AMP compatible page"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-frontend-actions.php:16
+#, php-format
+msgid "Use %1$s function which is already included from %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:218
+#, php-format
+msgid ""
+"Filter for \"%1$s\" added too late. To disable AMP, this filter must be "
+"added before the \"%2$s\" action."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:404
+#, php-format
+msgid ""
+"%1$s (or %2$s, formerly %3$s) was called too early and so it will not work "
+"properly."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:418
+msgid "WordPress is not currently doing any hook."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:423
+#, php-format
+msgid ""
+"Calling this function before the %1$s action means it will not have access "
+"to %2$s and the queried object to determine if it is an AMP response, thus "
+"neither the %3$s filter nor the AMP enabled toggle will be considered."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:435
+#: amp/includes/libs/amp/src/DevTools/ErrorPage.php:270
+#, php-format
+msgid ""
+"It appears the plugin with slug %s is responsible; please contact the author."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:439
+#: amp/includes/libs/amp/src/DevTools/ErrorPage.php:274
+#, php-format
+msgid ""
+"It appears the must-use plugin with slug %s is responsible; please contact "
+"the author."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:443
+#: amp/includes/libs/amp/src/DevTools/ErrorPage.php:278
+#, php-format
+msgid ""
+"It appears the theme with slug %s is responsible; please contact the author."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:446
+msgid ""
+"The function was called too early (before the plugins_loaded action) to "
+"determine the plugin source."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:809
+#, php-format
+msgid ""
+"Removal of %1$s link should be done by removing %2$s from the %3$s action at "
+"%4$s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:821
+msgid "There is no amphtml version available for this URL."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:1323
+#, php-format
+msgid ""
+"Analytics entry for %1$s is missing one of the following keys: `%2$s` or "
+"`%3$s` (array keys: %4$s)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:1371
+#, php-format
+msgid "The %s argument is deprecated when theme supports AMP."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:1472
+#, php-format
+msgid "The %s argument is deprecated."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:1927
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:402
+msgid "View non-AMP version"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/amp-helper-functions.php:1927
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:402
+msgid "View AMP version"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-comment-walker.php:11
+#, php-format
+msgid "%1$s functionality has been moved to %2$s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-http.php:382
+msgid "Redirecting…"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-http.php:476
+msgid "Your comment has been posted."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-http.php:478
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-service-worker.php:110
+#, php-format
+msgid "Please update to PWA v0.2. Expected argument to be %s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-service-worker.php:151
+#: amp/includes/libs/amp/includes/class-amp-service-worker.php:185
+msgid ""
+"Please update to PWA v0.2. Expected argument to be WP_Service_Worker_Scripts."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-service-worker.php:327
+msgid "No service workers registered for the requested scope."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-service-worker.php:328
+msgid "Service Worker Installation"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:571
+msgid "No WP_Query available."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:600
+#, php-format
+msgid "Supportable template \"%s\" does not have a callable callback."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:648
+#, php-format
+msgid ""
+"An expected parent was not found. Did you filter %s to not honor the "
+"template hierarchy?"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:737
+#, php-format
+msgid ""
+"Did not expect there to be more than one matching template. Did you filter "
+"%s to not honor the template hierarchy?"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:798
+msgid "Singular"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:803
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:821
+msgid "Homepage"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:808
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:817
+#, php-format
+msgid "Currently disabled at the <a href=\"%s\">page level</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:813
+msgid "Blog"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:829
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-archives.php:49
+msgid "Archives"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:832
+msgid "Author"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:836
+msgid "Date"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:840
+msgid "Search"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:843
+msgid "Not Found (404)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:926
+msgid ""
+"The AMP plugin no longer allows `amp_supportable_templates` filters to "
+"specify a template as being `supported`. This is now managed only in AMP "
+"Settings."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:933
+msgid ""
+"The AMP plugin no longer allows `amp_supportable_templates` filters to "
+"specify a template's support as being `immutable`. This is now managed only "
+"in AMP Settings."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:1090
+#: amp/includes/libs/amp/includes/templates/class-amp-content.php:179
+#, php-format
+msgid "Embed Handler (%1$s) must extend `%2$s`"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:1328
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:1843
+msgid "Failed to prepare AMP page"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:1844
+msgid ""
+"A PHP error occurred while trying to prepare the AMP response. This may not "
+"be caused by the AMP plugin but by some other active plugin or the current "
+"theme. You will need to review the error details to determine the source of "
+"the error."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:1865
+msgid "Go to non-AMP version"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:2189
+msgid "AMP optimization could not be completed due to the following:"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:2217
+msgid "Redirecting since AMP version not available."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:2453
+msgid ""
+"Paired browsing is only available when AMP dev mode is enabled (e.g. when "
+"logged-in and admin bar is showing)."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:2454
+msgid "AMP Paired Browsing Unavailable"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/class-amp-theme-support.php:2492
+msgid "AMP Paired Browsing:"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/embeds/class-amp-crowdsignal-embed-handler.php:59
+msgid "View Survey"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/embeds/class-amp-crowdsignal-embed-handler.php:61
+msgid "View Poll"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/options/class-amp-options-manager.php:469
+#, php-format
+msgid ""
+"A conflicting version of PHP-CSS-Parser appears to be installed by another "
+"plugin or theme (located in %s). Because of this, CSS processing will be "
+"limited, and tree shaking will not be available."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/options/class-amp-options-manager.php:478
+msgid ""
+"PHP-CSS-Parser is not available so CSS processing will not be available."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/options/class-amp-options-manager.php:508
+#, php-format
+msgid ""
+"Your site is not being fully served over a secure connection (using HTTPS)."
+"<br>As some AMP functionality requires a secure connection, you might "
+"experience degraded performance or broken components.<br><a href=\"%s\">More "
+"details</a>"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/options/class-amp-options-manager.php:509
+msgid "https://wordpress.org/support/article/why-should-i-use-https/"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/options/class-amp-options-manager.php:536
+#, php-format
+msgid ""
+"The AMP Reader theme %1$s cannot be found. Your site is currently falling "
+"back to using the Legacy templates for AMP pages. Please <a href=\"%2$s\">re-"
+"select</a> the desired Reader theme."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/options/class-amp-reader-theme-rest-controller.php:67
+#: amp/includes/libs/amp/src/OptionsRESTController.php:153
+msgid ""
+"Sorry, you are not allowed to manage options for the AMP plugin for "
+"WordPress."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:381
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:407
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:423
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:439
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
+msgid "expand child menu"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:382
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:408
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:424
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-core-theme-sanitizer.php:440
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
+msgid "collapse child menu"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:227
+msgid "Submitting…"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:237
+msgid "Your submission failed."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:239
+#, php-format
+msgid "The server responded with %1$s (code %2$s)."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:241
+msgid "It appears your submission was successful."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:242
+msgid ""
+"Even though the server responded OK, it is possible the submission was not "
+"processed."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:244
+msgid ""
+"Please contact the developer of this form processor to improve this message."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-form-sanitizer.php:253
+msgid "Learn More"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-iframe-sanitizer.php:205
+msgid "Show all"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-style-sanitizer.php:1505
+#, php-format
+msgid "Failed to fetch: %1$s (%2$s)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-style-sanitizer.php:1512
+#, php-format
+msgid "Failed to fetch: %s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-style-sanitizer.php:1520
+msgid "Response did not contain the expected text/css content type."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-style-sanitizer.php:1694
+#, php-format
+msgid ""
+"It is not a best practice to use %1$s to load font CDN stylesheets. Please "
+"use %2$s to enqueue %3$s as its own separate script."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-style-sanitizer.php:2974
+#, php-format
+msgid ""
+"Admin bar (%s) was removed to preserve AMP validity due to excessive CSS."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/sanitizers/class-amp-style-sanitizer.php:3062
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1190
+msgid "CSS Usage"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/settings/class-amp-customizer-design-settings.php:130
+msgid "Design"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/settings/class-amp-customizer-design-settings.php:142
+msgid "Header Text Color"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/settings/class-amp-customizer-design-settings.php:156
+msgid "Header Background & Link Color"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/settings/class-amp-customizer-design-settings.php:168
+msgid "Color Scheme"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/settings/class-amp-customizer-design-settings.php:291
+msgid "Light"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/settings/class-amp-customizer-design-settings.php:292
+msgid "Dark"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/templates/class-amp-content-sanitizer.php:83
+#, php-format
+msgid "Sanitizer (%s) class does not exist"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/templates/class-amp-content-sanitizer.php:100
+#, php-format
+msgid "Sanitizer (%1$s) must extend `%2$s`"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/templates/class-amp-post-template.php:200
+#, php-format
+msgid "Called for non-existent key (\"%s\")."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/templates/class-amp-post-template.php:342
+msgid "Leave a Comment"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/templates/class-amp-post-template.php:343
+msgid "View Comments"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/templates/class-amp-post-template.php:473
+#, php-format
+msgid ""
+"Path validation for template (%1$s) failed. Path cannot traverse and must be "
+"located in `%2$s`."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:164
+msgid "All Validated URLs"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:166
+msgid "Validated URLs"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:167
+msgid "Validated URL"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:168
+msgid "No validated URLs found"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:169
+msgid "No forgotten validated URLs"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:170
+msgid "Search validated URLs"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:213
+msgid "AMP DevTools"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:457
+msgid "View Error Index"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:631
+msgid "Invalid markup kept"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:655
+msgid "Invalid markup removed"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:663
+msgid "All markup valid"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1179
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1183
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1238
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1242
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:872
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:876
+msgid "Markup Status"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1184
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1243
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:877
+msgid ""
+"When invalid markup is removed it will not block a URL from being served as "
+"AMP; the validation error will be sanitized, where the offending markup is "
+"stripped from the response to ensure AMP validity. If invalid AMP markup is "
+"kept, then URLs is occurs on will not be served as AMP pages."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1188
+msgid "Invalid Markup"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1189
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1206
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1235
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3311
+msgid "Sources"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1195
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1208
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3354
+msgid "URL"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1201
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1207
+msgid "Last Checked"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1222
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:869
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:471
+msgid "Error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1223
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:892
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3309
+msgid "Type"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1226
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1230
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:883
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:887
+msgid "Context"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1231
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:888
+msgid "The parent element of where the error occurred."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1249
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1253
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3385
+msgid "Reviewed"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1254
+msgid ""
+"Confirm that the action being taken on the invalid markup (causing a "
+"validation error) has been seen and approved."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1281
+msgid "Stale results"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1407
+msgid "Must-Use Plugins"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1407
+msgid "Plugins"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1434
+msgid "Other"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1443
+msgid "Embed"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1468
+msgid "Content"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1472
+msgid "Excerpt"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1478
+#, php-format
+msgid "Hook: %s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1495
+#, php-format
+msgid "%s (?)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1514
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3110
+msgid "Forget"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1518
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3094
+msgid "Recheck"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1607
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1638
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1660
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2370
+msgid "Dismiss this notice."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1709
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1644
+msgid "Delete"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1716
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2059
+msgid "Status"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1783
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:1912
+msgid ""
+"You do not have permissions to validate an AMP URL. Did you get logged out?"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2068
+msgid "Stylesheets"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2118
+#, php-format
+msgid "Last checked: <b>%s</b>"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2120
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2202
+msgid "View URL"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2217
+msgid "Edit User"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2219
+msgid "View User"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2234
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:427
+#: amp/public/class-general.php:45
+msgid "Paired Browsing"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2290
+#, php-format
+msgid ""
+"Stylesheet information for this URL is no longer available. Such data is "
+"automatically deleted after a week to reduce database storage. It is of "
+"little value to store long-term given that it becomes stale as themes and "
+"plugins are updated. To obtain the latest stylesheet information, <a "
+"href=\"%s\">recheck this URL</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2301
+msgid "Unable to retrieve data for stylesheets."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2390
+#, php-format
+msgid "Percentage of used CSS budget (%sKB):"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2651
+msgid ""
+"Selector generated to increase specificity so the cascade is preserved for "
+"properties moved from style attribute to CSS rules in style[amp-custom]."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2653
+msgid ""
+"Selector generated to increase specificity for important properties so that "
+"the CSS cascade is preserved. AMP does not allow important properties."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2705
+msgid ""
+"The stylesheet was empty after minification (removal of comments and "
+"whitespace)."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2710
+msgid "All of the stylesheet was removed during tree-shaking."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2718
+msgid "Show styles removed during tree-shaking"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2756
+msgid "Invalid taxonomy."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:2791
+msgid "Search Errors"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3002
+msgid "AMP Validated URL"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3005
+#, php-format
+msgid "%s &#8212; WordPress"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3077
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1620
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1634
+msgid "Details"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3087
+msgid "View"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3109
+#, php-format
+msgid "Forget &#8220;%s&#8221;"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validated-url-post-type.php:3133
+msgid "Forgotten"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:252
+msgid "Search AMP Validation Errors"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:253
+msgid "All AMP Validation Errors"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:254
+msgid "Edit AMP Validation Error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:255
+msgid "Update AMP Validation Error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:256
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1658
+msgid "Error Index"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:257
+msgid "Back to AMP Validation Errors"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:258
+msgid "Frequent Validation Errors"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:259
+msgid "View Validation Error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:260
+msgid "Add New Validation Error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:261
+msgid "New Validation Error Hash"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:262
+msgid "No validation errors found."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:263
+msgid "Validation Error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:264
+msgid "Validation errors navigation"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:265
+msgid "Validation errors list"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:267
+msgid "Most Used Validation Errors"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:312
+msgid "Method must be passed a term slug (string) or error attributes (array)."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:893
+msgid "Last Seen"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:894
+msgid "URLs"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1251
+msgid "Apply Filter"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1296
+msgid "View Validated URLs"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1518
+msgid "Clear Empty"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1700
+msgid "JS"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1703
+msgid "HTML element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1706
+msgid "HTML attribute"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1709
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2732
+msgid "CSS"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1792
+msgid "Expected JSON, got an empty value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1795
+msgid "The maximum stack depth has been exceeded"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1798
+msgid "Invalid or malformed JSON"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1801
+msgid "Control character error, possibly incorrectly encoded"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1804
+msgid "Syntax error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1808
+#, php-format
+msgid "Malformed %s characters, possibly incorrectly encoded"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1882
+msgid "n/a"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1889
+msgid "F j, Y g:i a"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:1990
+msgid "Misc"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2057
+#, php-format
+msgid ""
+"AMP does not allow the use of JS %1$s tags unless they are for loading <a "
+"href=\"%2$s\">AMP components</a>, which are added automatically by the AMP "
+"plugin. For any page to be served as AMP, all invalid script tags must be "
+"removed from the page. Instead of custom or third-party JS, please consider "
+"using AMP components and functionality such as <a href=\"%6$s\">%7$s</a> and "
+"<a href=\"%4$s\">actions and events</a> (as opposed to JS event handler "
+"attributes like %5$s). Some custom JS can be added if encapsulated in the <a "
+"href=\"%8$s\">%9$s</a>. Learn more about <a href=\"%3$s\">how AMP works</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2075
+#, php-format
+msgid ""
+"AMP allows you to <a href=\"%1$s\">style your pages using CSS</a> in much "
+"the same way as regular HTML pages, however there are some <a href=\"%2$s\">"
+"restrictions</a>. Nevertheless, the AMP plugin automatically inlines "
+"external stylesheets, transforms %3$s qualifiers, and uses tree shaking to "
+"remove the majority of CSS rules that do not apply to the current page. "
+"Nevertheless, AMP does have a 75KB limit and tree shaking cannot always "
+"reduce the amount of CSS under this limit; when this happens an excessive "
+"CSS error will result."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2087
+#, php-format
+msgid ""
+"AMP allows a specific set of elements and attributes on valid AMP pages. "
+"Learn about the <a href=\"%1$s\">AMP HTML specification</a>. If an element "
+"or attribute is not allowed in AMP, it must be removed for the page to be <a "
+"href=\"%2$s\">cached and eligible for prerendering</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2096
+msgid ""
+"If all invalid markup is &#8220;removed&#8221; the page will be served as "
+"AMP. However, the impact that the removal has on the page must be assessed "
+"to determine if the result is acceptable. If any invalid markup is &#8220;"
+"kept&#8221; then the page will not be served as AMP."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2177
+msgid "required value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2607
+#, php-format
+msgid "(priority %d)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2712
+msgid "Custom HTML"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2729
+msgid "HTML Element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2730
+msgid "HTML Attribute"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2731
+msgid "JavaScript"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2886
+msgid "The link you followed has expired."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2891
+msgid "You do not have authorization."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2942
+msgid "Invalid script"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2948
+msgid "Invalid inline script"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2951
+msgid "Invalid element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2958
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3350
+msgid "Invalid attribute"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2964
+msgid "Invalid processing instruction"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2970
+msgid "Excessive CSS"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2974
+msgid "Illegal CSS at-rule"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2980
+msgid "Duplicate element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2984
+msgid "Unrecognized CSS"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2986
+msgid "CSS parse error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2988
+msgid "Stylesheet fetch error"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2991
+msgid "Illegal CSS property"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2997
+msgid "Illegal CSS selector"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:2999
+msgid "Disallowed class name"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3010
+msgid "Illegal text content"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3017
+msgid "Invalid JSON"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3019
+msgid "Illegal CSS !important property"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3025
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3317
+msgid "Invalid property"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3031
+msgid "Missing required property"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3039
+#, php-format
+msgid "Invalid value for %1$s property: %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3046
+msgid "Missing required attribute"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3052
+msgid "Mutually exclusive attributes encountered"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3070
+msgid "Missing exclusive mandatory attribute"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3073
+msgid "Missing at least one mandatory attribute"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3095
+#, php-format
+msgid "Tag %1$s is disallowed as child of tag %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3103
+#, php-format
+msgid "Tag %1$s is disallowed as first child of tag %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3141
+#, php-format
+msgid "The parent tag of tag %1$s cannot be %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3150
+#, php-format
+msgid "The tag %1$s may not appear as a descendant of tag %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3158
+#, php-format
+msgid "The tag %1$s may only appear as a descendant of tag %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3170
+#, php-format
+msgid "The attribute %s is set to an invalid value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3180
+#, php-format
+msgid "Invalid URL protocol %1$s for attribute %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3188
+#, php-format
+msgid "Malformed URL %1$s for attribute %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3196
+#, php-format
+msgid "The relative URL %1$s for attribute %2$s is disallowed"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3204
+#, php-format
+msgid "Missing URL for attribute %s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3211
+#, php-format
+msgid ""
+"Multiple image candidates with the same width or pixel density found in "
+"attribute %1$s in tag %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3226
+#, php-format
+msgid "Invalid value %1$s for attribute %2$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3233
+#, php-format
+msgid "Invalid or missing value for attribute %s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3239
+msgid "Inconsistent units for width and height"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3244
+#, php-format
+msgid ""
+"Incomplete layout attributes specified for tag %1$s. For example, provide "
+"attributes %2$s and %3$s"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3253
+#, php-format
+msgid "The implied layout %1$s is not supported by tag %2$s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3261
+#, php-format
+msgid "The specified layout %1$s is not supported by tag %2$s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3268
+#, php-format
+msgid "Unknown error (%s)"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3282
+msgid "Code"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3284
+msgid "At-rule"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3287
+msgid "Element attributes"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3290
+msgid "Attribute name"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3292
+msgid "Element name"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3294
+msgid "Node name"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3297
+msgid "Parent element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3299
+msgid "CSS property"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3301
+msgid "CSS selector"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3303
+msgid "Class name"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3305
+msgid "Mutually exclusive attributes"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3307
+msgid "Text content"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3319
+msgid "Missing property"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3322
+msgid "Property name"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3325
+msgid "Invalid property value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3327
+msgid "Required property value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3330
+msgid "Property value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3332
+msgid "Missing attributes"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3334
+msgid "Child tag"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3336
+msgid "First child tag"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3338
+msgid "Children count"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3340
+msgid "Required child count"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3342
+msgid "Required minimum child count"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3344
+msgid "Required parent element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3346
+msgid "Disallowed ancestor element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3348
+msgid "Required ancestor element"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3352
+msgid "Required attribute value"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3356
+msgid "Message"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3358
+msgid "Duplicate dimensions"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3376
+msgid "Removed"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3379
+msgid "Kept"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-error-taxonomy.php:3387
+msgid "Unreviewed"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:388
+msgid "Validate URL"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:400
+msgid "View with AMP disabled"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:440
+#: amp/includes/libs/amp/src/Admin/OptionsMenu.php:117
+#: amp/includes/libs/amp/src/Admin/OptionsMenu.php:153
+msgid "Settings"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:470
+msgid "Preview link expired. Please try again."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:653
+msgid "AMP validity status"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:912
+msgid "Review issues"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:920
+msgid "Invalid elements:"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:926
+msgid "Invalid attributes:"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:1650
+msgid "Nonce authentication failed."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2083
+msgid "Too many redirects."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2203
+#, php-format
+msgid ""
+"Please check your server PHP error logs; to do this you may need to <a "
+"href=\"%1$s\" target=\"_blank\">enable</a> %2$s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2214
+#, php-format
+msgid ""
+"If you are stuck, please search the <a href=\"%1$s\">support forum</a> for "
+"possible related topics, or otherwise start a <a href=\"%2$s\">new support "
+"topic</a> including the error message, the URL to your site, and your active "
+"theme/plugins."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2223
+#, php-format
+msgid ""
+"Please check your <a href=\"%s\">Site Health</a> to verify it can perform "
+"loopback requests."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2228
+#, php-format
+msgid "Please include your <a href=\"%s\">Site Health Info</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2247
+msgid "Failed to fetch URL to validate."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2256
+msgid ""
+"Unable to validate URL. A white screen of death was encountered which is "
+"likely due to a PHP fatal error."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2265
+msgid ""
+"The fetched URL was not found. It may have been deleted. If so, you can "
+"trash this."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2273
+msgid "An internal server error occurred when fetching the URL for validation."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2282
+msgid ""
+"A PHP fatal error occurred while validating the URL. This may indicate "
+"either a bug in theme/plugin code or it may be due to an issue in the AMP "
+"plugin itself."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2284
+msgid "The error details appear below."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2286
+#, php-format
+msgid "Alternatively, you may enable %s to show the error details below."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2293
+msgid ""
+"URL validation failed due to the AMP validation request not returning JSON "
+"data. This may be due to a PHP fatal error occurring."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2302
+msgid ""
+"URL validation failed due to unexpected JSON in AMP validation response."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2311
+#, php-format
+msgid "URL validation failed. Error code: %s."
+msgstr ""
+
+#: amp/includes/libs/amp/includes/validation/class-amp-validation-manager.php:2352
+msgid "More details"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-archives.php:75
+msgid "Select Year"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-archives.php:78
+msgid "Select Month"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-archives.php:81
+msgid "Select Day"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-archives.php:84
+msgid "Select Week"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-archives.php:87
+msgid "Select Post"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-categories.php:44
+msgid "Categories"
+msgstr ""
+
+#: amp/includes/libs/amp/includes/widgets/class-amp-widget-categories.php:65
+msgid "Select Category"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/OnboardingWizardSubmenu.php:54
+#: amp/includes/libs/amp/src/Admin/OnboardingWizardSubmenu.php:55
+#: amp/includes/libs/amp/src/Admin/OnboardingWizardSubmenuPage.php:121
+msgid "AMP Onboarding Wizard"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/OptionsMenu.php:142
+#: amp/includes/libs/amp/src/Admin/OptionsMenu.php:152
+msgid "AMP Settings"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/ReaderThemes.php:245
+msgid ""
+"The request for reader themes from WordPress.org resulted in an invalid "
+"response. Check your Site Health to confirm that your site can communicate "
+"with WordPress.org. Otherwise, please try again later or contact your host."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/ReaderThemes.php:247
+msgid "Error:"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/ReaderThemes.php:266
+msgid ""
+"The default reader themes cannot be displayed because a plugin appears to be "
+"overriding the themes response from WordPress.org."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/ReaderThemes.php:465
+msgid "AMP Legacy"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/ReaderThemes.php:470
+msgid ""
+"The original templates included in the plugin with limited customization "
+"options."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:83
+msgid "Persistent object cache"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:87
+msgid "cURL multi functions"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:93
+msgid "ICU version"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:99
+msgid "Transient caching of stylesheets"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:103
+msgid "Xdebug extension"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:119
+msgid "Learn more about persistent object caching"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:121
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:184
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:263
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:137
+msgid ""
+"The AMP plugin performs at its best when persistent object cache is enabled. "
+"Object caching is used to more effectively store image dimensions and parsed "
+"CSS."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:144
+msgid "Persistent object caching is enabled"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:145
+msgid "Persistent object caching is not enabled"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:178
+msgid ""
+"The AMP plugin is able to more efficiently determine the dimensions of "
+"images lacking width or height by making parallel requests via cURL multi."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:181
+msgid "https://www.php.net/manual/en/book.curl.php"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:182
+msgid "Learn more about these functions"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:231
+msgid "The cURL multi functions are defined"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:254
+#, php-format
+msgid ""
+"The version of ICU can affect how the intl extension runs. This extension is "
+"used to derive AMP Cache URLs for internationalized domain names (IDNs). The "
+"minimum recommended version of ICU is v%s."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:261
+msgid "Learn more about ICU"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:271
+#, php-format
+msgid "The ICU version is unknown, as the constant %s is not defined"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:275
+#, php-format
+msgid "The version of ICU (v%s) is out of date"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:279
+#, php-format
+msgid "The version of ICU (v%s) looks good"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:302
+msgid ""
+"Transient caching of parsed stylesheets is not used due to external object "
+"cache"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:306
+msgid "Transient caching of parsed stylesheets is disabled"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:310
+msgid "Transient caching of parsed stylesheets is enabled"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:321
+#, php-format
+msgid ""
+"On sites which have highly variable CSS and are not using a persistent "
+"object cache, the transient caching of parsed stylesheets may be "
+"automatically disabled in order to prevent a site from filling up its <code>"
+"%1$s</code> table with too many transients. Examples of highly variable CSS "
+"include dynamically-generated style rules with selectors referring to user "
+"IDs or elements being given randomized background colors. There are two "
+"filters which may be used to configure the CSS transient monitoring: <code>"
+"%2$s</code> and <code>%3$s</code>."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:336
+msgid ""
+"If you have identified and eliminated the cause of the variable CSS, please "
+"re-enable transient caching to reduce the amount of CSS processing required "
+"to generate AMP pages."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:339
+msgid "Re-enable transient caching"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:340
+msgid "Reload the page to refresh the diagnostic check."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:341
+msgid "The operation failed, please reload the page and try again."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:359
+msgid ""
+"The Xdebug extension can cause some of the AMP plugin&#8217;s processes to "
+"time out depending on your system resources and configuration. It should not "
+"be enabled on a live site (production environment)."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:362
+msgid "Your server currently has the Xdebug PHP extension loaded"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:365
+#, php-format
+msgid ""
+"Nevertheless, %s is enabled which suggests that this site is currently under "
+"development or is undergoing debugging."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:370
+#, php-format
+msgid ""
+"Please deactivate Xdebug to improve performance. Otherwise, you may enable "
+"%s to indicate that this site is currently under development or is "
+"undergoing debugging."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:373
+msgid "Your server currently does not have the Xdebug PHP extension loaded"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:400
+msgid "Debugging information for the Official AMP Plugin for WordPress."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:413
+msgid "Templates enabled"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:418
+msgid "Serve all templates as AMP?"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:423
+msgid "Transient caching for stylesheets disabled"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:428
+msgid "Threshold for monitoring stylesheet caching"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:433
+msgid "Sampling range for monitoring stylesheet caching"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:438
+msgid "Number of stylesheet transient cache entries"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:443
+msgid "Calculated time series for monitoring the stylesheet caching"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:474
+msgid ""
+"Additionally, AMP requires HTTPS for most components to work properly, "
+"including iframes and videos."
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:506
+msgid "No template supported"
+msgstr ""
+
+#: amp/includes/libs/amp/src/Admin/SiteHealth.php:519
+msgid "This option does not apply to Reader mode."
+msgstr ""
+
+#: amp/includes/libs/amp/src/BackgroundTask/CronBasedBackgroundTask.php:164
+msgid ""
+"Large site detected. Deactivation will leave orphaned scheduled events "
+"behind."
+msgstr ""
+
+#: amp/includes/libs/amp/src/DevTools/ErrorPage.php:314
+msgid ""
+"The exact details of the error are hidden for security reasons. To learn "
+"more about this error, enable the WordPress debugging display (by setting "
+"both <code>WP_DEBUG</code> and <code>WP_DEBUG_DISPLAY</code> to <code>"
+"true</code>), or look into the PHP error log. Learn more about <a "
+"href=\"https://wordpress.org/support/article/debugging-in-wordpress/\">"
+"Debugging in WordPress</a>."
+msgstr ""
+
+#: amp/includes/libs/amp/src/DevTools/UserAccess.php:123
+msgid "Whether the user has enabled dev tools."
+msgstr ""
+
+#: amp/includes/libs/amp/src/DevTools/UserAccess.php:189
+msgid "Sorry, the current user is not allowed to make this change."
+msgstr ""
+
+#: amp/includes/libs/amp/src/MobileRedirection.php:443
+msgid "Exit mobile version"
+msgstr ""
+
+#: amp/includes/libs/amp/src/MobileRedirection.php:447
+msgid "Go to mobile version"
+msgstr ""
+
+#: amp/includes/libs/amp/src/MobileRedirection.php:485
+msgid ""
+"This link is not applicable in this context. It remains here for preview "
+"purposes only."
+msgstr ""
+
+#: amp/includes/libs/amp/src/PluginSuppression.php:328
+#, php-format
+msgid ""
+"Invalid markup causing the validation error is %1$s and %2$s. See all "
+"validated URL(s) with this validation error."
+msgstr ""
+
+#: amp/includes/libs/amp/src/PluginSuppression.php:329
+msgid "removed"
+msgstr ""
+
+#: amp/includes/libs/amp/src/PluginSuppression.php:329
+msgid "kept"
+msgstr ""
+
+#: amp/includes/libs/amp/src/PluginSuppression.php:330
+msgid "reviewed"
+msgstr ""
+
+#: amp/includes/libs/amp/src/PluginSuppression.php:330
+msgid "unreviewed"
+msgstr ""
+
+#: amp/includes/libs/amp/src/ReaderThemeLoader.php:167
+#, php-format
+msgid "This has been <a href=\"%s\">selected</a> as the AMP Reader theme."
+msgstr ""
+
+#: amp/includes/libs/amp/templates/meta-taxonomy.php:27
+#, php-format
+msgid "Categories: %s"
+msgstr ""
+
+#: amp/includes/libs/amp/templates/meta-taxonomy.php:44
+#, php-format
+msgid "Tags: %s"
+msgstr ""
+
+#: daftplug-instantify.php:20
+msgid "DaftPlug Instantify - PWA & Google AMP & Facebook IA"
+msgstr ""
+
+#: daftplug-instantify.php:21
+msgid ""
+"Take the user experience to the next level with future of mobile web: "
+"Progressive Web Apps (PWA), Google Accelerated Mobile Pages (AMP) and "
+"Facebook Instant Articles (FBIA)."
+msgstr ""
+
+#: daftplug-instantify.php:31
+msgid "Instantify"
+msgstr ""
+
+#: fbia/admin/class-admin.php:70
+msgid "Feed"
+msgstr ""
+
+#: fbia/admin/class-feed.php:53
+msgid "Instant Articles"
+msgstr ""
+
+#: fbia/admin/templates/subpage-general.php:14
+msgid ""
+"Enter the numeric ID of your Facebook page. If you have trouble finding it "
+"use <a class=\"daftplugAdminLink\" href=\"https://fb-search.com/find-my-"
+"facebook-id\" target=\"_blank\">this service</a> to get it."
+msgstr ""
+
+#: includes/class-plugin.php:326
+msgid ""
+"⚠️ Instantify features require <i>curl</i> extension to function properly."
+msgstr ""
+
+#: includes/class-plugin.php:330
+msgid ""
+"⚠️ Instantify features require <i>dom</i> extension to function properly."
+msgstr ""
+
+#: includes/class-plugin.php:334
+msgid ""
+"⚠️ Instantify features require <i>iconv</i> extension to function properly."
+msgstr ""
+
+#: includes/class-plugin.php:338
+msgid ""
+"⚠️ Instantify features require <i>libxml</i> extension to function properly."
+msgstr ""
+
+#: includes/class-plugin.php:342
+msgid ""
+"⚠️ Instantify features require <i>spl</i> extension to function properly."
+msgstr ""
+
+#: includes/class-plugin.php:349
+msgid "If you have trouble fixing this, please contact us on"
+msgstr ""
+
+#: pwa/admin/class-admin.php:68
+msgid "Add To Home Screen"
+msgstr ""
+
+#: pwa/admin/class-admin.php:73
+msgid "Offline Usage"
+msgstr ""
+
+#: pwa/admin/class-admin.php:78
+msgid "Accessibility"
+msgstr ""
+
+#: pwa/admin/class-admin.php:83
+msgid "Enhancements"
+msgstr ""
+
+#: pwa/admin/class-admin.php:88 pwa/admin/class-pushnotifications.php:130
+msgid "Push Notifications"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:194
+#, php-format
+msgid "New %s - %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:217
+#, php-format
+msgid "New Product - %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:235
+#, php-format
+msgid "Price Drop - %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:236
+#, php-format
+msgid "Price dropped from %s to %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:252
+#, php-format
+msgid "New Sale Price - %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:253
+#, php-format
+msgid "New Sale Price: %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:269
+#, php-format
+msgid "Back In Stock - %s"
+msgstr ""
+
+#: pwa/admin/class-pushnotifications.php:270
+#, php-format
+msgid "%s is now back in stock"
+msgstr ""
+
+#: pwa/admin/templates/subpage-accessibility.php:12
+msgid ""
+"Navigation tab bar provides app like experience by adding tabbed navigation "
+"menu bar on the bottom of your web app when accessed from mobile devices."
+msgstr ""
+
+#: pwa/admin/templates/subpage-accessibility.php:79
+#, php-format
+msgid "Navigation Item %s"
+msgstr ""
+
+#: pwa/admin/templates/subpage-addtohomescreen.php:144
+msgid ""
+"Related application option gives you the ability to let users quickly and "
+"seamlessly install your native app on their device directly from the app "
+"store, without leaving the browser, and without showing an annoying "
+"interstitial. So if you will relate your native application to your PWA, "
+"browser will prompt the user with your native app instead of the PWA web app."
+" If you don't have a native application for your web app, you can <span "
+"class=\"daftplugAdminButton -miniGenerateApp\" data-open-"
+"popup=\"generateAppModal\">Get Android App</span> now."
+msgstr ""
+
+#: pwa/admin/templates/subpage-addtohomescreen.php:152
+#, php-format
+msgid "Related Application %s"
+msgstr ""
+
+#: pwa/admin/templates/subpage-addtohomescreen.php:192
+#, php-format
+msgid "App Shortcut %s"
+msgstr ""
+
+#: pwa/admin/templates/subpage-enhancements.php:12
+msgid ""
+"Ajaxify brings a true native app like experience by loading your content "
+"without reloading entire page. For the best results we recommend to also "
+"enable Preloader feature. If you want to exclude certain links or forms from "
+"ajaxify, just add <code>no-ajaxy</code> class on the element."
+msgstr ""
+
+#: pwa/admin/templates/subpage-enhancements.php:68
+msgid ""
+"Enter the action of your web app. Action is a URL or your share URL scheme "
+"that accepts parameters and opens a share dialog. For example Facebook share "
+"action is <code>/sharer/</code> and Facebook full share URL is https://www."
+"facebook.com<code>/sharer/</code>?u=https://example.com/"
+msgstr ""
+
+#: pwa/admin/templates/subpage-enhancements.php:75
+msgid ""
+"Enter the URL query parameter of your web app. It is a query parameter that "
+"gets sharable URL as a value and inserts it into the share dialog. For "
+"example Facebook URL query parameter is <code>u</code> and Facebook full "
+"share URL is https://www.facebook.com/sharer/?<code>u</code>=https://example."
+"com/"
+msgstr ""
+
+#: pwa/admin/templates/subpage-pushnotifications.php:58
+#: pwa/admin/templates/subpage-pushnotifications.php:332
+#: pwa/admin/templates/subpage-pushnotifications.php:333
+msgid "Unknown"
+msgstr ""
+
+#: pwa/admin/templates/subpage-pushnotifications.php:373
+#, php-format
+msgid "Action Button %s"
+msgstr ""
+
+#: pwa/admin/templates/subpage-pushnotifications.php:409
+msgid ""
+"Push Notification features need PHP version 7.1 or higher and <i "
+"style=\"font-style: italic;\"\n"
+"                >gmp</i>, <i style=\"font-style: italic;\">mbstring</i> and "
+"<i style=\"font-style: italic;\">openssl</i> extensions to function properly."
+" If you're having trouble to update your PHP version or enable extensions, "
+"please contact your hosting provider to do this in your stead."
+msgstr ""
+
+#: pwa/admin/templates/subpage-pushnotifications.php:418
+msgid ""
+"You are using the <a class=\"daftplugAdminLink\" href=\"https://wordpress."
+"org/plugins/onesignal-free-web-push-notifications/\" target=\"_blank\">"
+"OneSignal Push Notification</a> plugin as a push notification service, so "
+"this section is disabled. If you want to use built-in Firebase push "
+"notifications, please disable OneSignal plugin and visit this section again."
+msgstr ""
+
+#: pwa/public/class-accessibility.php:99
+msgid "Homepage Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:100
+msgid "Post Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:101
+msgid "Product Opened"
+msgstr "Menu du jour"
+
+#: pwa/public/class-accessibility.php:102
+msgid "Page Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:103
+msgid "Cart Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:104
+msgid "Checkout Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:105
+msgid "Page Not Found"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:106
+msgid "Search Results"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:107
+msgid "Category Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:108
+msgid "Shop Opened"
+msgstr "La carte"
+
+#: pwa/public/class-accessibility.php:109
+msgid "Tag Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:110
+msgid "Author Opened"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:192
+msgid "Moved Back"
+msgstr ""
+
+#: pwa/public/class-accessibility.php:193
+msgid "Moved Forward"
+msgstr ""
+
+#: pwa/public/class-addtohomescreen.php:201
+msgid "Find what you need faster with our web app!"
+msgstr ""
+
+#: pwa/public/class-addtohomescreen.php:204
+#: pwa/public/partials/display-checkoutoverlay.php:9
+msgid "Not now"
+msgstr ""
+
+#: pwa/public/class-addtohomescreen.php:205
+#: pwa/public/partials/display-checkoutoverlay.php:10
+#: pwa/public/partials/display-headeroverlay.php:9
+msgid "Install"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:96
+msgid "Unregistered"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:157
+msgid "WooCommerce New Order"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:158
+#, php-format
+msgid "You have new order for total %s%s. Click on notification to see it."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:193
+msgid "WooCommerce Low Stock"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:194
+#, php-format
+msgid ""
+"The product \"%s\" is running out of stock. Currently left %s in stock. "
+"Click on notification to see it."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:210
+#, php-format
+msgid "%s has just mentioned you in a comment."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:212
+#, php-format
+msgid "%s has just mentioned you in an update."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:216
+#, php-format
+msgid "New mention from %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:230
+#, php-format
+msgid "New comment from %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:231
+#, php-format
+msgid "%s has just commented on your post."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:244
+#, php-format
+msgid "New reply from %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:245
+#, php-format
+msgid "%s has just replied you."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:259
+#, php-format
+msgid "New message from %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:274
+#, php-format
+msgid "New friend request from %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:275
+#, php-format
+msgid "%s has just sent you a friend request."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:288
+#, php-format
+msgid "%s accepted your friend request"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:289
+#, php-format
+msgid "%s has just accepted your friend request."
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:306
+#, php-format
+msgid "New Notification From %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:334
+msgid "post"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:353
+msgid "a comment"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:355
+msgid "replied to"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:355
+msgid "on "
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:356
+msgid "your comment"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:392
+#: pwa/public/class-pushnotifications.php:396
+#: pwa/public/class-pushnotifications.php:400
+msgid "on"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:393
+#: pwa/public/class-pushnotifications.php:404
+#, php-format
+msgid "a %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:397
+#: pwa/public/class-pushnotifications.php:421
+#, php-format
+msgid "your %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:402
+#, php-format
+msgid "an %s"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:474
+msgid "Notifications are turned on"
+msgstr ""
+
+#: pwa/public/class-pushnotifications.php:475
+msgid "Notifications are turned off"
+msgstr ""
+
+#: pwa/public/partials/display-checkoutoverlay.php:6
+msgid ""
+"Keep track of your orders. Our web app is fast, small and works offline."
+msgstr ""
+
+#: pwa/public/partials/display-fullscreenoverlays.php:12
+msgid "Continue in browser"
+msgstr ""
+
+#: pwa/public/partials/display-fullscreenoverlays.php:13
+msgid "To install tap"
+msgstr ""
+
+#: pwa/public/partials/display-fullscreenoverlays.php:14
+msgid "and choose"
+msgstr ""
+
+#: pwa/public/partials/display-fullscreenoverlays.php:15
+msgid "Add to Home Screen"
+msgstr ""
+
+#: pwa/public/partials/display-headeroverlay.php:8
+msgid "Get our web app. It won't take up space on your phone."
+msgstr ""
+
+#: pwa/public/partials/display-postoverlay.php:14
+msgid "See this post in..."
+msgstr ""
+
+#: pwa/public/partials/display-postoverlay.php:15
+msgid "Open"
+msgstr ""
+
+#: pwa/public/partials/display-postoverlay.php:16
+msgid "Continue"
+msgstr ""
+
+#: pwa/public/partials/display-pushprompt.php:9
+msgid "Dismiss"
+msgstr ""
+
+#: pwa/public/partials/display-pushprompt.php:10
+msgid "Allow Notifications"
+msgstr ""
+
+#: pwa/public/partials/display-rotatenotice.php:5
+msgid "Please rotate your device"
+msgstr ""

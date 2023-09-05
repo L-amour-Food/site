@@ -1,0 +1,314 @@
+[01-Nov-2020 20:09:58 UTC] Erreur de la base de données WordPress Table 'sabr8669_wp202.wput_mailchimp_carts' doesn't exist pour la requête TRUNCATE `wput_mailchimp_carts` faite par do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, include_once('/plugins/mailchimp-for-woocommerce/uninstall.php'), mailchimp_woocommerce_uninstall, mailchimp_clean_database, mailchimp_flush_database_tables
+[01-Nov-2020 20:09:58 UTC] Erreur de la base de données WordPress Table 'sabr8669_wp202.wput_mailchimp_jobs' doesn't exist pour la requête TRUNCATE `wput_mailchimp_jobs` faite par do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, include_once('/plugins/mailchimp-for-woocommerce/uninstall.php'), mailchimp_woocommerce_uninstall, mailchimp_clean_database, mailchimp_flush_database_tables
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => ssl0.ovh.net
+            [hostnameDomainOnly] => ovh.net
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => GARM-105G006
+            [reportedHostnameDomainOnly] => GARM-105G006
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => ssl0.ovh.net_587
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => ssl0.ovh.net
+            [hostnameDomainOnly] => ovh.net
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => GARM-101G004
+            [reportedHostnameDomainOnly] => GARM-101G004
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => ssl0.ovh.net_25
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => ssl0.ovh.net
+            [hostnameDomainOnly] => ovh.net
+            [port] => 465
+            [protocol] => SMTPS
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => GARM-98R002
+            [reportedHostnameDomainOnly] => GARM-98R002
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => ssl0.ovh.net_465
+        )
+
+)
+
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: API de Gmail
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - ovh.net:587
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: API de SendGrid
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - ovh.net:25
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: API de Mandrill
+[04-Nov-2020 11:35:20 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - ovh.net:465
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => ssl0.ovh.net
+            [hostnameDomainOnly] => ovh.net
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => GARM-105G006
+            [reportedHostnameDomainOnly] => GARM-105G006
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => ssl0.ovh.net_587
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => ssl0.ovh.net
+            [hostnameDomainOnly] => ovh.net
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => GARM-101G004
+            [reportedHostnameDomainOnly] => GARM-101G004
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => ssl0.ovh.net_25
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => ssl0.ovh.net
+            [hostnameDomainOnly] => ovh.net
+            [port] => 465
+            [protocol] => SMTPS
+            [secure] => 1
+            [mitm] => 1
+            [reportedHostname] => GARM-98R002
+            [reportedHostnameDomainOnly] => GARM-98R002
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => ssl0.ovh.net_465
+        )
+
+)
+
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: API de Gmail
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - ovh.net:587
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: API de SendGrid
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - ovh.net:25
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: API de Mandrill
+[04-Nov-2020 11:35:43 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - ovh.net:465
+[04-Nov-2020 14:00:50 UTC] [Loco.error] "Translation set not known in WooCommerce Email Customizer" in src/admin/bundle/BaseController.php:69
+[04-Nov-2020 14:02:42 UTC] [Loco.error] "Translation set not known in WooCommerce Email Customizer" in src/admin/bundle/BaseController.php:69
+[04-Nov-2020 14:02:42 UTC] [Loco.warning] "Ce n’est pas un fichier de traduction. La modification manuelle des chaînes de source n’est pas recommandée." in src/error/AdminNotices.php:87
+[04-Nov-2020 14:04:28 UTC] [Loco.error] "Translation set not known in WooCommerce Email Customizer" in src/admin/bundle/BaseController.php:69
