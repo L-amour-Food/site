@@ -3,7 +3,7 @@
 	<div id="updraft-insert-admin-warning"></div>
 	<noscript>
 		<div>
-			<?php _e('JavaScript warning', 'updraftplus').': ';?><span style="color:red"><?php _e('This admin interface uses JavaScript heavily. You either need to activate it within your browser, or to use a JavaScript-capable browser.', 'updraftplus');?></span>
+			<?php _e('JavaScript warning', 'updraftplus').': ';?><span style="color:red"><?php echo __('This admin interface uses JavaScript heavily.', 'updraftplus').' '.__('You either need to activate it within your browser, or to use a JavaScript-capable browser.', 'updraftplus');?></span>
 		</div>
 	</noscript>
 	
@@ -96,7 +96,7 @@
 		<table>
 			<tr>
 				<td>
-					<p class="multisite-advert-width"><?php echo __('Do you need WordPress Multisite support?', 'updraftplus').' <a href="'.apply_filters('updraftplus_com_link', "https://updraftplus.com/shop/updraftplus-premium/").'" target="_blank">'. __('Please check out UpdraftPlus Premium, or the stand-alone Multisite add-on.', 'updraftplus');?></a>.</p>
+					<p class="multisite-advert-width"><?php echo __('Do you need WordPress Multisite support?', 'updraftplus').' <a href="'.$updraftplus->get_url('premium').'" target="_blank">'. __('Please check out UpdraftPlus Premium.', 'updraftplus');?></a>.</p>
 				</td>
 			</tr>
 		</table>

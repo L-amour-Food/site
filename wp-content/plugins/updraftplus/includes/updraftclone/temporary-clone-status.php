@@ -39,7 +39,7 @@ class UpdraftPlus_Temporary_Clone_Status {
 	 * @return void
 	 */
 	public function init() {
-		if (is_admin() || (defined('WP_CLI') && WP_CLI) || 'GET' != $_SERVER['REQUEST_METHOD']) return;
+		if (is_admin() || (defined('WP_CLI') && WP_CLI) || !isset($_SERVER['REQUEST_METHOD']) || 'GET' != $_SERVER['REQUEST_METHOD']) return;
 
 		$this->output_status_page();
 	}
@@ -368,7 +368,7 @@ class UpdraftPlus_Temporary_Clone_Status {
 				break;
 			case self::UPLOADING:
 				$backup_details = $this->get_backup_details();
-				$description = sprintf(__('The sending of the site data has begun. So far %s data archives totalling %s have been received', 'updraftplus'), '<strong>'.$backup_details['sets'].'</strong>', '<strong>'.round($backup_details['uploaded'], 2).' MB</strong>');
+				$description = __('The sending of the site data has begun.', 'updraftplus').' '.sprintf(__('So far %s data archives totalling %s have been received', 'updraftplus'), '<strong>'.$backup_details['sets'].'</strong>', '<strong>'.round($backup_details['uploaded'], 2).' MB</strong>');
 				break;
 			case self::RESTORING:
 				UpdraftPlus_Backup_History::rebuild();
@@ -465,5 +465,5 @@ class UpdraftPlus_Temporary_Clone_Status {
 }
 
 if (defined('UPDRAFTPLUS_THIS_IS_CLONE') && 1 == UPDRAFTPLUS_THIS_IS_CLONE) {
-	$updraftplus_temporary_clone_status = new UpdraftPlus_Temporary_Clone_Status();
+	new UpdraftPlus_Temporary_Clone_Status();
 }

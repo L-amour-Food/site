@@ -26,7 +26,7 @@ class Automatic_Upgrader_Skin_Main extends WP_Upgrader_Skin {
 	 * Request filesystem credentials
 	 *
 	 * @param bool   $error 					   Check if there is an error: default is false
-	 * @param string $context 					   Context for credentails
+	 * @param string $context 					   Context for credentials
 	 * @param bool   $allow_relaxed_file_ownership Check if relaxed file ownership is allowed
 	 * @return bool
 	 */
@@ -111,11 +111,11 @@ class Automatic_Upgrader_Skin_Main extends WP_Upgrader_Skin {
 	}
 }
 
-global $updraftplus;
-$wp_version = $updraftplus->get_wordpress_version();
+global $updraftcentral_main;
+$wp_version = $updraftcentral_main->get_wordpress_version();
 
 if (version_compare($wp_version, '5.3', '>=')) {
-	if (!class_exists('Automatic_Upgrader_Skin')) require_once(UPDRAFTPLUS_DIR.'/central/classes/automatic-upgrader-skin-compatibility.php');
+	if (!class_exists('Automatic_Upgrader_Skin')) require_once(dirname(__FILE__).'/automatic-upgrader-skin-compatibility.php');
 } else {
 	class Automatic_Upgrader_Skin extends Automatic_Upgrader_Skin_Main {
 

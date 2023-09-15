@@ -88,6 +88,7 @@ abstract class UpdraftCentral_Commands {
 	 * @return array
 	 */
 	final protected function _get_backup_credentials_settings($dir) {
+
 		// Do we need to ask the user for filesystem credentials? when installing and/or deleting items in the given directory
 		$filesystem_method = get_filesystem_method(array(), $dir);
 
@@ -156,7 +157,7 @@ abstract class UpdraftCentral_Commands {
 	 * @return array
 	 */
 	final protected function process_chunk_upload($params, $type) {
-		global $updraftcentral_host_plugin;
+		global $updraftcentral_host_plugin, $updraftcentral_main;
 
 		if (!in_array($type, array('plugin', 'theme'))) {
 			return $this->_generic_error_response('upload_type_not_supported');
@@ -203,12 +204,17 @@ abstract class UpdraftCentral_Commands {
 		}
 
 		// Save uploaded file
-		$filename = basename($params['filename']);
+		$filename = basename($params['filename']).md5(get_home_url());
 		$is_chunked = false;
 
 		if (isset($params['chunks']) && 1 < (int) $params['chunks']) {
-			$filename = basename($params['filename']).'.part';
+			$filename .= '.part';
 			$is_chunked = true;
+		}
+
+		if (!$is_chunked || ($is_chunked && isset($params['chunk']) && 0 === (int) $params['chunk'])) {
+			// if it's not a chunk upload or if it's a chunk upload operation and the current chunk variable is zero, then it means a new upload operation has just begun therefore we should remove previous left-over file (if any and due to error during the previous upload of the same file), because it can lead to a corrupt/invalid zip file (we use file_put_contents a few lines below with FILE_APPEND attribute)
+			if (file_exists($upload_dir.'/'.$filename) && !unlink($upload_dir.'/'.$filename)) return $this->_generic_error_response('unable_to_delete_existing_file');
 		}
 
 		if (empty($params['data'])) {
@@ -258,17 +264,18 @@ abstract class UpdraftCentral_Commands {
 				add_filter('upgrader_post_install', array($this, 'get_install_data'), 10, 3);
 
 				// WP < 3.7
-				if (!class_exists('Automatic_Upgrader_Skin')) include_once(UPDRAFTPLUS_DIR.'/central/classes/class-automatic-upgrader-skin.php');
+				if (!class_exists('Automatic_Upgrader_Skin')) include_once(UPDRAFTCENTRAL_CLIENT_DIR.'/classes/class-automatic-upgrader-skin.php');
+				require_once(UPDRAFTCENTRAL_CLIENT_DIR.'/classes/class-updraftcentral-wp-upgrader.php');
 
 				$skin = new Automatic_Upgrader_Skin();
-				$upgrader = ('plugin' === $type) ? new Plugin_Upgrader($skin) : new Theme_Upgrader($skin);
+				$upgrader = ('plugin' === $type) ? new UpdraftCentral_Plugin_Upgrader($skin) : new UpdraftCentral_Theme_Upgrader($skin);
 
 				$install_result = $upgrader->install($zip_filepath);
 				remove_filter('upgrader_post_install', array($this, 'get_install_data'), 10, 3);
 
 				// Remove zip file on success and on error (cleanup)
 				if ($install_result || is_null($install_result) || is_wp_error($install_result)) {
-					@unlink($zip_filepath);// phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged
+					@unlink($zip_filepath);// phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged -- Silenced to suppress errors that may arise if the file doesn't exist.
 				}
 
 				if (false === $install_result || is_wp_error($install_result)) {
@@ -311,8 +318,7 @@ abstract class UpdraftCentral_Commands {
 							}
 
 							if (false === $activate || is_wp_error($activate)) {
-								global $updraftplus;
-								$wp_version = $updraftplus->get_wordpress_version();
+								$wp_version = $updraftcentral_main->get_wordpress_version();
 
 								$message = is_wp_error($activate) ? array('message' => $activate->get_error_message()) : array('message' => sprintf($updraftcentral_host_plugin->retrieve_show_message('unable_to_activate'), $type, $type, $wp_version));
 								return $this->_generic_error_response('unable_to_activate_'.$type, $message);
