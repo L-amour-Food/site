@@ -43,6 +43,10 @@ add_action('rest_api_init', function () {
                     }
                 }
             }
+
+            header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+            header("Cache-Control: post-check=0, pre-check=0", false);
+            header("Pragma: no-cache");
             return ['current' => $current, 'titre' => $titre, 'next' => $next, 'version' => MENU_VERSION];
         },
     ));
@@ -52,6 +56,10 @@ add_action('rest_api_init', function () {
         'callback' => function ($request) {
 
             $menu = get_menu();
+
+            header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+            header("Cache-Control: post-check=0, pre-check=0", false);
+            header("Pragma: no-cache");
             return $menu;
         },
     ));

@@ -81,9 +81,9 @@ if ($current['illustration'] ?? false) {
 } else {
 
     // Load the bg.png and set it as the background
-    $bg = imagecreatefrompng('bg.png');
-    imagecopyresampled($image, $bg, 0, 0, 0, 0, $width, $height, imagesx($bg), imagesy($bg));
-    imagedestroy($bg);
+    // $bg = imagecreatefrompng('bg.png');
+    // imagecopyresampled($image, $bg, 0, 0, 0, 0, $width, $height, imagesx($bg), imagesy($bg));
+    // imagedestroy($bg);
 }
 // Define margin
 $margin = $height * 0.10;
@@ -156,11 +156,22 @@ $texts = [
 ];
 
 if ($current) {
-    foreach (explode("\n", strip_tags($current['description'])) as $line) {
-        if (!empty($line)) {
-            $texts[] = wordwrap($line, 50);
-        }
+    if (count(array_filter($current['details']))) {
+        $details = $current['details'];
+        $texts[] = wordwrap(mb_strtoupper($details['plat_viande']), 50);
+        $texts[] = wordwrap(($details['accompagnement_viande']), 50);
         $texts[] = "jump";
+        $texts[] = "jump";
+        $texts[] = wordwrap(mb_strtoupper($details['plat_vege']), 50);
+        $texts[] = wordwrap(($details['accompagnement_vege']), 50);
+
+    } else {
+        foreach (explode("\n", strip_tags($current['description'])) as $line) {
+            if (!empty($line)) {
+                $texts[] = wordwrap($line, 50);
+            }
+            $texts[] = "jump";
+        }
     }
 }
 
@@ -222,7 +233,7 @@ if ($zip) {
     // Clean up the files (you can remove this if you want to keep them)
     unlink($bmpFileName);
     unlink($zipFileName);
-} else if($bmp){
+} else if ($bmp) {
     // Output the png image
     // header('Content-Disposition: attachment; filename="affichage.png"');
     header('Content-Type: image/bmp');
