@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             construireTexte();
         }))
         window.addEventListener("load", (event) => {
-             construireTexte();
+            construireTexte();
         });
     }
 
@@ -35,24 +35,28 @@ document.addEventListener('DOMContentLoaded', () => {
         let accompagnement_viande = document.querySelector('[data-name="accompagnement_viande"] input').value;
         let plat_vege = document.querySelector('[data-name="plat_vege"] input').value;
         let accompagnement_vege = document.querySelector('[data-name="accompagnement_vege"] input').value;
+        let specialite = document.querySelector('[data-name="specialite"] input').value;
         let desserts = document.querySelector('[data-name="desserts"] input').value;
         if (plat_viande) {
-            texte.push('<h3 class="plat" id="plat_viande">' + plat_viande + '</h3>');
+            texte.push('<strong class="plat" id="plat_viande">' + plat_viande + '</strong>');
         }
         if (accompagnement_viande) {
             texte.push('<p class="accompagnement" id="accompagnement_viande">' + accompagnement_viande + '</p>');
-        }
+        } else texte.push('<br>')
         if (plat_vege) {
-            texte.push('<h3 class="plat" id="plat_vege">' + plat_vege + '</h3>');
+            texte.push('<strong class="plat" id="plat_vege">' + plat_vege + '</strong>');
         }
         if (accompagnement_vege) {
             texte.push('<p class="accompagnement" id="accompagnement_vege">' + accompagnement_vege + '</p>');
+        } else texte.push('<br>')
+        if (specialite) {
+            texte.push('<p class="specialite" id="specialite"><strong>Spécialité(s) du jour:</strong> ' + specialite + '</p>');
         }
         if (desserts) {
-            texte.push('<p id="desserts">' + desserts + '</p>');
+            texte.push('<p id="desserts"><strong>Déssert(s):</strong> ' + desserts + '</p>');
         }
-        if(tinymce && texte.length) {
-            tinymce.get('excerpt').setContent(texte.join('\n'));        
+        if (tinymce && texte.length) {
+            tinymce.get('excerpt').setContent(texte.join('\n'));
         }
         // document.querySelector('#excerpt').value = texte.join('\n');
     }

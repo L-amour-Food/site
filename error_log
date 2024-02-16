@@ -17235,3 +17235,19 @@
 [10-May-2023 08:56:50 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
 [10-May-2023 08:57:40 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
 [10-May-2023 08:57:40 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 08:19:02 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 08:19:02 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 08:40:18 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 08:40:18 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 08:42:15 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 08:42:15 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 08:43:08 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 08:43:08 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 09:29:15 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 09:29:15 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 09:52:41 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 09:52:41 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 09:55:07 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 09:55:07 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
+[24-Nov-2023 09:57:17 UTC] The WC_Abstract_Legacy_Order::get_product_from_item function is deprecated since version 4.4.0. Replace with $item->get_product().
+[24-Nov-2023 09:57:17 UTC] The WC_Order::has_meta( $order_item_id ) function is deprecated since version 3.0. Replace with WC_Order_item::get_meta_data.
