@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let plat_vege = document.querySelector('[data-name="plat_vege"] input').value;
         let accompagnement_vege = document.querySelector('[data-name="accompagnement_vege"] input').value;
         let specialite = document.querySelector('[data-name="specialite"] input').value;
+        let specialite_vege = document.querySelector('[data-name="specialite_vege"] input').value;
         let desserts = document.querySelector('[data-name="desserts"] input').value;
         if (plat_viande) {
             texte.push('<strong class="plat" id="plat_viande">' + plat_viande + '</strong>');
@@ -49,11 +50,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (accompagnement_vege) {
             texte.push('<p class="accompagnement" id="accompagnement_vege">' + accompagnement_vege + '</p>');
         } else texte.push('<br>')
+        texte.push('<p class="specialite" id="specialite">');
         if (specialite) {
-            texte.push('<p class="specialite" id="specialite"><strong>Spécialité(s) du jour:</strong> ' + specialite + '</p>');
+            texte.push(specialite + '<br>');
         }
+        if (specialite_vege) {
+            texte.push(specialite_vege + '<br>');
+        }
+        texte.push('</p>');
         if (desserts) {
-            texte.push('<p id="desserts"><strong>Déssert(s):</strong> ' + desserts + '</p>');
+            texte.push('<p id="desserts">' + desserts + '</p>');
         }
         if (tinymce && texte.length) {
             tinymce.get('excerpt').setContent(texte.join('\n'));

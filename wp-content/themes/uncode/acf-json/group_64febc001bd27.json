@@ -106,7 +106,27 @@
             "name": "specialite",
             "aria-label": "",
             "type": "text",
-            "instructions": "Si différent de l'accompagnement viande",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_65fda103b38a6",
+            "label": "Spécialité(s) végé",
+            "name": "specialite_vege",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -159,5 +179,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1708070772
+    "modified": 1711120655
 }
