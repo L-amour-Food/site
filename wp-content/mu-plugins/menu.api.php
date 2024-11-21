@@ -5,7 +5,7 @@ add_action('rest_api_init', function () {
     register_rest_route('custom/v1', '/menu-recap', array(
         'methods' => 'GET',
         'callback' => function ($request) {
-            $menu = get_menu();
+            $menu = get_menu_plats();
             $current = false;
             $titre = 'À bientôt dans la Cantina ...';
             $next = false;
@@ -55,7 +55,7 @@ add_action('rest_api_init', function () {
         'methods' => 'GET',
         'callback' => function ($request) {
 
-            $menu = get_menu();
+            $menu = get_menu_plats();
 
             header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
             header("Cache-Control: post-check=0, pre-check=0", false);
@@ -109,54 +109,6 @@ add_action('rest_api_init', function () {
 
 
 
-    function get_menu()
-    {
-        $args = array(
-            'post_type' => 'product',
-            'posts_per_page' => 20,
-            'post_status' => array('publish', 'draft'),
-            'tax_query' => array(
-                array(
-                    'taxonomy' => 'product_cat',
-                    'field'    => 'slug',
-                    'terms'    => 'a-la-carte',
-                ),
-            ),
-        );
-
-        $products = get_posts($args);
-        $product_data = array();
-        setlocale(LC_TIME, 'fr_FR');
-        foreach ($products as $product) {
-            $pid = $product->ID;
-            $product_obj = wc_get_product($pid);
-
-            $time = frenchDateToTimestamp($product->post_title);
-
-            $details = [
-                'plat_viande' => get_field('plat_viande', $pid),
-                'accompagnement_viande' => get_field('accompagnement_viande', $pid),
-                'plat_vege' => get_field('plat_vege', $pid),
-                'accompagnement_vege' => get_field('accompagnement_vege', $pid),
-                'desserts' => get_field('desserts', $pid),
-            ];
-            $product_data[] = array(
-                'date' => $product->post_title,
-                'time' => $time,
-                'disponible' => $product->post_status != 'draft',
-                'nom' => parse_nom($product_obj->get_short_description(), $details),
-                'description' => parse_desc($product_obj->get_short_description(), $details),
-                'illustration' => get_the_post_thumbnail_url($product->ID),
-                'permalink' => get_permalink($product->ID),
-                'details' => $details
-            );
-        }
-        usort($product_data, function ($a, $b) {
-            return $b['time'] - $a['time'];
-        });
-
-        return $product_data;
-    }
 
     function parse_desc($desc, $details)
     {
@@ -258,3 +210,65 @@ add_action('rest_api_init', function () {
         return $dateTime->getTimestamp();
     }
 });
+
+
+function get_menu_plat($date_plat)
+{
+    $plats = get_menu_plats();
+    foreach($plats as $plat) {
+        if($date_plat == $plat['date_plat']) return $plat;
+    }
+}
+
+function get_menu_plats()
+{
+    $args = array(
+        'post_type' => 'product',
+        'posts_per_page' => 200,
+        'post_status' => array('publish', 'draft'),
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'product_cat',
+                'field'    => 'slug',
+                'terms'    => 'a-la-carte',
+            ),
+        ),
+    );
+
+    $products = get_posts($args);
+    $product_data = array();
+    setlocale(LC_TIME, 'fr_FR');
+    foreach ($products as $product) {
+        $pid = $product->ID;
+        $product_obj = wc_get_product($pid);
+
+        $time = frenchDateToTimestamp($product->post_title);
+
+        $details = [
+            'plat_viande' => get_field('plat_viande', $pid),
+            'accompagnement_viande' => get_field('accompagnement_viande', $pid),
+            'plat_vege' => get_field('plat_vege', $pid),
+            'accompagnement_vege' => get_field('accompagnement_vege', $pid),
+            'specialite_viande' => get_field('specialite', $pid),
+            'specialite_vege' => get_field('specialite_vege', $pid),
+            'desserts' => get_field('desserts', $pid),
+        ];
+        $product_data[] = array(
+            'id' => $product->ID,
+            'date' => $product->post_title,
+            'date_plat' => get_field('date_plat',$product->ID),
+            'time' => $time,
+            'disponible' => $product->post_status != 'draft',
+            'nom' => parse_nom($product_obj->get_short_description(), $details),
+            'description' => parse_desc($product_obj->get_short_description(), $details),
+            'illustration' => get_the_post_thumbnail_url($product->ID),
+            'permalink' => get_permalink($product->ID),
+            'details' => $details
+        );
+    }
+    usort($product_data, function ($a, $b) {
+        return $b['time'] - $a['time'];
+    });
+
+    return $product_data;
+}
